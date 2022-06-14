@@ -117,8 +117,10 @@ table {
 @media(max-width:768px){
     .main{
         flex-direction: column;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
         align-items: center;
-        display: block;
     }
 }
 
@@ -128,11 +130,19 @@ table {
 .main-left h1{
     color: #56C4C5;
     font-size: 18px;
+    font-weight: bold;
     padding-top: 4px;
     padding-bottom: 4px;
     margin-top: 158px;
     margin-bottom: 8px;
 }
+@media(max-width:768px){
+    .main-left h1{
+        font-size: 16px;
+        margin-top: 32px;
+    }
+}
+
 .m1{
     color: #221E1F;
     font-size: 48px;
@@ -140,12 +150,22 @@ table {
     padding-top: 11px;
     padding-bottom: 11px;
 }
+@media(max-width:768px){
+    .m1{
+        font-size: 32px;
+    }
+}
 .m2{
     color: #221E1F;
     font-size: 20px;
     padding-top: 4.5px;
     padding-bottom: 4.5px;
     margin-top: 16px;
+}
+@media(max-width:768px){
+    .m2{
+        font-size: 16px;
+    }
 }
 
 .main-right{
