@@ -64,6 +64,7 @@ table {
         background-position: center bottom;
         position: relative;
         z-index: -1;
+        max-height: 668px;
     }
 }
 
@@ -169,20 +170,21 @@ table {
 }
 
 .main-right{
-    margin: auto;
+    margin: 0 auto;
     max-width: 50%
     margin-right: 140px;
-    float:left;
 }
 @media(max-width:768px){
     .main-right{
         display: block;
+        
     }
 }
 
 .main-right img{
     max-width: 100%;
     z-index: -1;
+    float: bottom;
 }
 @media(max-width:768px){
     .main-right img{
